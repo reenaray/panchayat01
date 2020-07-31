@@ -1,0 +1,273 @@
+html {
+    background: #f3f5f7;
+}
+
+body {
+    background: #fff;
+    width: 1200px;
+    margin: auto;
+    box-shadow: 0px -1px 10px #ccc;
+}
+
+header {
+    padding: 1rem 1.5rem !important;
+    background: #fff;
+    height: 75px;
+}
+
+header .logo {
+    width: 100px;
+}
+
+header ul {
+    margin: 0px;
+    padding: 0px;
+    margin-top: 2px;
+    float: right;
+}
+
+header ul li {
+    display: inline-block;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 4px 6px;
+    margin: 3px;
+    font-weight: 500;
+}
+
+header ul li a:hover {
+    background: #efefef;
+    border-radius: 4px;
+    color: #ed5a3f;
+}
+
+main {
+    min-height: 700px;
+}
+
+header .language-btn {
+    margin-top: 3px;
+    height: 30px;
+    border-radius: 4px;
+    padding: 0px 10px;
+    color: #363636;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 26px;
+    float: right;
+}
+
+/*******************
+
+ home styling starts
+
+*********************/
+
+.home-box {
+    border-radius: 1px;
+}
+
+.home-box .home-img {
+    position: relative;
+    height: 337px;
+}
+
+.news-box ul .news-list-heading {
+    font-weight: 1000;
+    font-size: 17px;
+    text-transform: uppercase;
+}
+
+.news-box ul .news-item strong {
+    font-size: 15px;
+    color: #ed5a3f;
+    font-weight: 690;
+}
+
+.news-box ul .news-item {
+    font-size: 13px;
+    border-bottom: 1px solid #ebe9e9;
+    padding-bottom: 10px;
+    padding-top: 8px;
+    font-weight: 400;
+}
+
+.news-box ul .news-item span {
+    color: #ed5a3f;
+    font-size: 13px;
+}
+
+.news-box .event-box {
+    border-radius: 1px;
+}
+
+.news-box ul .more-item {
+    padding-top: 7px;
+    font-size: 13px;
+}
+
+.village-list ul .name-list {
+    font-size: 12px;
+    color: #a69f9f;
+}
+
+/*********************
+
+services styling starts
+
+**********************/
+
+.services-box ul .online-list-heading strong {
+    font-size: 22px;
+    color: #bf3206;
+    font-weight: 640;
+}
+
+.services-box ul .online-list-heading {
+    padding-bottom: 15px;
+}
+
+.services-box ul .services-item {
+    font-size: 17px;
+    padding-bottom: 10px;
+    font-weight: 480;
+}
+
+.services-box ul .services-item a {
+    text-transform: uppercase;
+    padding-left: 7px;
+    color: #ed5a3f;
+    font-weight: 480;
+}
+
+
+/*********************
+
+program styling starts
+
+**********************/
+
+.scheme-box ul .program-box {
+    border-radius: 1px;
+    line-height: 17px;
+    text-align: center !important;
+    width: 173px;
+    height: 58px;
+    display: inline-block;
+    border: 1px solid transparent;
+    transition: all 0.25 linear;
+    padding: 1rem 1rem;
+    background: rgba( 248, 246, 246, 0.9 );
+}
+
+.scheme-box ul .program-box a {
+    display: center;
+    font-size: 13px;
+    color: black;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.scheme-box .section-title h2 {
+    color: #d8680c;
+    text-transform: uppercase;
+    font-size: 23px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-top: 7px;
+
+}
+
+.scheme-box .aware-img {
+    position: relative;
+    height: 200px;
+}
+
+.more-box {
+    border-radius: 1px;
+    background: rgba( 248, 246, 246, 0.9 );
+}
+
+/*********************
+
+footer styling starts
+
+**********************/
+
+footer {
+    background-image: url(images/footer-img.jpg);
+    background-size: cover;
+    position: relative;
+}
+
+footer::before {
+    left: 0px;
+    content: '';
+    background: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    /* z-index: 999; */
+    top: 0px;
+    width: 100%;
+    height: 100%;
+}
+
+footer .menu-list-box ul .footer-list-heading {
+    color: #bababa !important;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 12px;
+    font-weight: 500;
+    font-size: 15px;
+    position: relative;
+}
+
+footer .menu-list-box ul .footer-list-heading::before {
+    content: '';
+    position: absolute;
+    background: #efefef;
+    height: 1px;
+    width: 70%;
+    top: 25px;
+}
+
+footer .menu-list-box ul li a {
+    font-size: 13px;
+    color: #686868;
+    line-height: 2.4;
+}
+
+footer .menu-list-box ul li a:hover {
+    color: #ccc;
+}
+
+footer .menu-list-box p {
+    font-size: 14px;
+    color: #686868;
+    line-height: 1.7;
+    text-align: left;
+}
+
+footer .menu-list ul {
+    margin: 0px;
+}
+
+@media (min-width:1100px) {
+    .container-full {
+        width: 100%;
+    }
+}
+
+@media (max-width:1024px) {
+    .container-full {
+        width: 100%;
+    }
+
+    body {
+        width: 100%;
+    }
+}

@@ -1,0 +1,21 @@
+header .language-btn{
+		border: 1px solid #ed5a3f;
+	}
+
+header{
+		border-bottom:1px solid #ed5a3f;
+	}
+	footer .menu-list-box ul .footer-list-heading::before {
+	background: #4f2720;
+}
+
+.document-list{
+    padding-top: none;
+    margin-top: none;
+}
+
+/*****************
+
+home color styling
+
+*****************/
